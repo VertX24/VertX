@@ -1,0 +1,12 @@
+st = 123.75
+cr = 55
+ch = input("select Star or Crystal")
+if ch == "Star":
+    a = st
+elif ch == "Crystal":
+    a = cr
+lvl = float(input("your skill lvl"))
+b = 1.092 ** lvl
+c = float(input("select size Small(1) Medium(2) Large(4) Huge(8)"))
+d = a*b*c//1
+print("+",d,"xp")
